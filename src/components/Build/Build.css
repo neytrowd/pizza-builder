@@ -1,0 +1,83 @@
+.Build{
+  padding: 50px 15px 0 15px;
+}
+
+.Build-inner{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Build-selected{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Build-price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Build button a{
+  color: #fff;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.Build button a:hover {
+  text-decoration: none;
+}
+
+.Build-status {
+  margin-top: 30px;
+}
+
+.Build-status a {
+  color: #fff;
+}
+
+.Build-status a:hover {
+  text-decoration: none;
+}
+
+.Build-info {
+  text-align: center;
+}
+
+.Build-info ul {
+  list-style: none;
+}
+
+@media only screen and (min-width: 768px){
+
+  .Build-inner {
+    justify-content: space-between;
+  }
+
+  .Build-block{
+    flex-basis: 400px;
+    justify-content: space-between;
+  }
+
+  .Build-selected{
+    justify-content: flex-start;
+  }
+
+  .Build-preparation{
+    flex-basis: 370px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .Build-block{
+    flex-basis: 600px;
+    justify-content: space-between;
+  }
+}

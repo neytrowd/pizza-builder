@@ -1,0 +1,35 @@
+.Checkout{
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+
+.Checkout-inner{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.Checkout form{
+  padding: 20px;
+  border: 1px solid transparent;
+}
+
+.Checkout .invalid {
+  border: 1px solid red;
+}
+
+.Checkout-items{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Checkout-validation {
+  height: 50px;
+  margin: 20px 0;
+}
+
+.Checkout input[value = "Reset"] {
+  margin-right: 15px;
+}

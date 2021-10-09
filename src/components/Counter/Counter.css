@@ -1,0 +1,14 @@
+.Counter{
+  display: flex;
+}
+
+.Counter input{
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+}
+
+.Counter button{
+  width: 40px;
+  font-weight: bold;
+}

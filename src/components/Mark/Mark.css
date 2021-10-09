@@ -1,0 +1,11 @@
+.Mark{
+  width: 90px;
+  text-align: center;
+  color: #fff;
+  padding: 1px 10px;
+  border-radius: 50px;
+  background: #646262;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+}

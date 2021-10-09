@@ -1,0 +1,14 @@
+.List li {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.List li p {
+  margin: 0;
+}
+
+.List li p:nth-child(1){
+  font-weight: bold;
+}
